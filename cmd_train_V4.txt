@@ -1,0 +1,5 @@
+java -Xmx4g -jar /opt/rdp_classifier_2.12/dist/classifier.jar train \
+--seq train_in/seq.fa \
+--tax_file train_in/tax.txt \
+-o train_out \
+-v 'SILVA SSU 138' \

@@ -1,0 +1,6 @@
+python -m gen_train \
+--tax-file ../tax_slv_ssu_138.txt \
+--tax-map ../taxmap_slv_ssu_ref_nr_138.txt \
+--fasta rescript/species_level/species_16S_seqs_a7432d0f-b5f7-409f-9daf-cd33db5de53f/data/dna-sequences.fasta \
+--out-tax-file train_in/tax.txt \
+--out-fasta train_in/seq.fa
